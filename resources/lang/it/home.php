@@ -1,0 +1,33 @@
+<?php
+
+    return[
+            'hair transplant'   => 'Trapianto di capelli',
+            'dental implants'   => 'Impianti dentali',
+            'eye surgery'       => 'Chirurgia oculare',
+            'orthopaedic surgery' => 'Chirurgia ortopedica',
+            'hip surgery'       => 'Intervento di sostituzione dell`anca',
+            'shoulder surgery'  => 'Intervento di sostituzione della spalla',
+            'knee surgery'      => 'Intervento di sostituzione del ginocchio',
+            'Professional Services For' => 'Servizi Professionali Per',
+            'Medical Tourism In Albania' => 'Turismo Medico In Albania',
+            'medical centers in albania have built' => 'I centri medici in Albania si sono guadagnati la reputazione di essere eccellenti nei trattamenti per i denti e per gli impianti di capelli.',
+            'learn more'        => 'Saperne di più',
+            'professional clinics'  => 'Cliniche professionali',
+            'find some professional clinics' => 'Trova alcuni dei nostri partner clinici professionali che ritieni possano aiutarti con il servizio che stai cercando.',
+            'medical treatments'=> 'Trattamenti medici',
+            'price starts from' => 'Il prezzo parte da',
+            'why us'            => 'Perché noi ?',
+            'why us description'=> 'Selezioniamo il miglior studio dentistico o medico per soddisfare le vostre esigenze. I must have affinché le cliniche lavorino con noi: medici esperti con risultati eccellenti per i pazienti, attrezzature mediche e dentistiche di ultima generazione, materiali medici di alta qualità, imaging digitale, chirurgia laser, mercurio- otturazioni dentali gratuite, sedazione per trattamenti indolori.',
+            'before and after treatment' => 'Prima e dopo il trattamento',
+            'find some our clients'      => 'Scopri alcuni dei nostri clienti prima e dopo i trattamenti.',
+            'before'            => 'Prima',
+            'after'             => 'Dopo',
+            'dental treatment'  => 'Trattamento dentale',
+            'rhinoplasty'       => 'Rinoplastica',
+            'get a quote'       => 'Ottieni un preventivo',
+            'name'              => 'Nome',
+            'surname'           => 'Cognome',
+            'phone'             => 'Telefono',
+            'footer description'=> 'Se hai bisogno di una consulenza medica esperta, puoi contattarci in qualsiasi momento presso Health Travel Albania. Le nostre linee sono aperte 24 ore su 24, 7 giorni su 7.',
+        ]
+?>

@@ -1,0 +1,33 @@
+<?php
+
+    return[
+            'hair transplant'   => 'Hair Transplant',
+            'dental implants'   => 'Dental Implants',
+            'eye surgery'       => 'Eye Surgery',
+            'orthopaedic surgery' => 'Orthopaedic Surgery',
+            'hip surgery'       => 'Hip replacement surgery',
+            'shoulder surgery'  => 'Shoulder replacement surgery',
+            'knee surgery'      => 'Knee replacement surgery',
+            'Professional Services For' => 'Professional Services For',
+            'Medical Tourism In Albania' => 'Medical Tourism In Albania',
+            'medical centers in albania have built' => 'Medical centers in Albania have built a reputation for being outstanding in the teeth and hair implant treatments.',
+            'learn more'        => 'Learn More',
+            'professional clinics'  => 'Professional Clinics',
+            'find some professional clinics' => 'Find some of our professional clinic partners that you think can help you with the service you are looking for.',
+            'medical treatments'=> 'Medical Treatments',
+            'price starts from' => 'Price starts from',
+            'why us'            => 'Why us ?',
+            'why us description'=> 'We source out the best Dental or Medical Practice to suit your needs The must haves for clinics to work with us: Expert doctors with excellent patient results, Latest technology Dental & Medical Equipment, Top Quality medical materials, Digital Imaging, Laser Surgery, Mercury-free dental fillings, Sedation for painless treatment.',
+            'before and after treatment' => 'Before and After Treatment',
+            'find some our clients'      => 'Find some of our clients before and after treatments.',
+            'before'            => 'Before',
+            'after'             => 'After',
+            'dental treatment'  => 'Dental Treatment',
+            'rhinoplasty'       => 'Rhinoplasty',
+            'get a quote'       => 'Get a Quote',
+            'name'              => 'Name',
+            'surname'           => 'Surname',
+            'phone'             => 'Phone',
+            'footer description'=> 'If you need expert medical advice, you are welcome to contact us at Health Travel Albania any time. Our lines are open 24/7.',
+        ]
+?>

@@ -1,0 +1,3028 @@
+@font-face {
+    font-family: Gordita;
+    src: url(Gordita-Font/Gordita-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gordita;
+    src: url(Gordita-Font/Gordita-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Gordita;
+    src: url(Gordita-Font/Gordita-Bold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Gordita;
+    src: url(Gordita-Font/Gordita-Black.otf);
+    font-weight: 800;
+}
+* {
+    font-family: "Gordita", sans-serif;
+}
+body {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #4ace91;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border: none;
+    box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #34a86e !important;
+}
+.whatsapp-btn {
+    border-radius: 8px;
+    border: 1px solid #4ace91;
+    background: #4ace91;
+    width: 147px;
+    height: 49px;
+    flex-shrink: 0;
+}
+
+.announcement-bar {
+    background: #34a86e;
+    padding: 12px 0px 0px 0px;
+}
+
+.announcement-bar .email {
+    display: flex;
+}
+.announcement-bar .email .email-text {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.announcement-bar .email span {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 5px;
+}
+
+.announcement-bar .phone {
+    display: flex;
+    align-items: baseline;
+}
+
+.announcement-bar .phone .phone-nr {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.announcement-bar .phone span {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 5px;
+}
+
+.header nav .nav-item a {
+    color: #8f8f8f;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header nav .nav-item a {
+    color: #8f8f8f;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offcanvas-body .nav-item a {
+    color: #8f8f8f;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.offcanvas-body li {
+    list-style-type: none;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.offcanvas-end {
+    width: 100%;
+}
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform 0.5s ease-in-out;
+}
+.btn-close:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    opacity: 1;
+}
+.navbar-nav .dropdown-menu {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.hero-title {
+    width: 32%;
+    text-align: start;
+}
+.hero .before-img{
+    position:relative;
+}
+
+.hero .before-img .top-left {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.hero .hero-text h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 38px;
+}
+
+.hero .hero-text h1 span {
+    color: #000;
+    font-family: Gordita;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero .hero-text p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 85px;
+}
+
+.hero .learn-more-btn {
+    display: inline-flex;
+    height: 57px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #4ace91;
+    border: #4ace91;
+    /* btn text style */
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.professional-clinics {
+    background: #ccebdd;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.professional-clinics .professional-clinics-info {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.professional-clinics .professional-clinics-info h1 {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.professional-clinics .professional-clinics-info p {
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.medical-treatments {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.medical-treatments .boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.medical-treatments .boxes .first-box {
+    width: 182px;
+    height: 182px;
+    border-radius: 9px;
+    background-color: #eef8f3;
+    position: relative;
+}
+
+.medical-treatments .boxes .first-box img {
+    width: 73px;
+    height: 73px;
+    object-fit: contain;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.boxes .outside-box {
+    width: 170px;
+}
+
+.boxes .outside-box .price-description {
+    font-size: 13px;
+    font-family: "Gordita";
+}
+
+.boxes .outside-box .price-value {
+    font-weight: 500;
+    color: #34a86e;
+    font-size: 14px;
+}
+.medical-treatments .medical-treatments-info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.medical-treatments .medical-treatments-info h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.medical-treatments .medical-treatments-info p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.med-treat {
+    width: 152px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #eef8f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.med-treat img {
+    width: 40% !important;
+}
+.why-us {
+    background-color: #f4f4f4;
+}
+
+.why-us .why-us-info {
+    width: 86%;
+    padding-top: 60px;
+    margin-left: auto;
+}
+
+.why-us .why-us-info h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.why-us .why-us-info p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.why-us .why-us-info .learn-more-btn {
+    display: inline-flex;
+    height: 57px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #4ace91;
+    border: #4ace91;
+    /* btn text style */
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.before-after {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.before-after .before-after-info {
+    text-align: center;
+}
+.before-after .before-after-info h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.before-after .before-after-info p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.before-after .owl-prev {
+    position: relative !important;
+    top: 25px !important;
+    right: 50px !important;
+}
+.before-after .owl-next {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+.carousel-medical-treatments .item p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.before-after .before-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.before-after .before-img img {
+    border-radius: 20px;
+}
+.before-after .before-img .top-left {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+
+.before-after .before-img .before {
+    border-radius: 5px;
+    background: #8f8f8f;
+    display: flex;
+    width: 141px;
+    height: 52px;
+    padding: 9px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    /* Text style */
+    color: #fff;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.before-after .before-img .after {
+    display: flex;
+    width: 141px;
+    height: 52px;
+    padding: 9px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #34a86e;
+
+    /* Text style */
+
+    color: #fff;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.before-after h3 {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.contact-us {
+    padding-bottom: 100px;
+}
+.contact-us-info {
+    background: #eef8f3;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact-us-form {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.contact-us-info .contact-us-form h1 {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact-us-info .contact-us-form p {
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-form {
+    width: 53%;
+    margin: auto;
+}
+.contact-us .contact-form .form-label {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-us .contact-form .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.9rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: #ccebdd;
+    background-clip: padding-box;
+    border: 1px solid #ccebdd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contact-us .contact-form .button-submit {
+    border-radius: 5px;
+    background: #48b67f;
+    border-color: #48b67f;
+
+    /* button text */
+    color: #fff;
+    font-family: Gordita;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-us .contact-form .btn {
+    padding: 0.9rem 0.75rem;
+    width: 100%;
+}
+
+.footer {
+    background-color: #464a52;
+    padding-top: 100px;
+}
+.footer .colmd2 {
+    display: flex;
+    justify-content: end;
+}
+.footer .col-1-footer {
+    text-align: start;
+}
+.footer .col-1-footer p {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    color: #fff;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .col-1-footer h4 {
+    color: #4ace91;
+    font-family: Gordita;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer .col-1-footer h3 {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .col-1-footer h3 span {
+    color: #4ace91;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .col-3-footer h3 {
+    color: #4ace91;
+    font-family: Gordita;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer .col-3-footer ul {
+    padding-left: 0px !important;
+}
+
+.footer .col-3-footer ul li {
+    list-style-type: none;
+    color: #cdcdcd;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250%; /* 45px */
+}
+
+.footer .footer-hr {
+    background: #8f8f8f;
+    margin-top: 40px;
+    margin-bottom: 46px;
+}
+
+.footer .footer-text p {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer .footer-text h3 {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #4ace91 !important;
+    width: 30px;
+}
+footer .text-endd {
+    text-align: right;
+}
+footer .text-startt {
+    text-align: left;
+}
+
+.hero-mobile {
+    display: none;
+}
+
+/* Media for Home Page */
+
+@media only screen and (max-width: 1300px) {
+    .wrapper .container-fluidd {
+        width: 96% !important;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .contact-form {
+        width: 66%;
+        margin: auto;
+    }
+
+    .why-us .why-us-info {
+        width: 86%;
+        padding-top: 40px;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .hero .hero-text h1 {
+        color: #000;
+        font-family: Gordita;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 14px !important;
+    }
+
+    .hero .hero-text p {
+        padding-bottom: 37px;
+    }
+    .hero-title {
+        width: 53%;
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .hero .before-img .top-left {
+        position: absolute;
+        top: 23%;
+        left: 8%;
+    }
+
+    .why-us .why-us-info {
+        width: 86%;
+        padding-top: 35px;
+        margin-left: auto;
+    }
+
+    .professional-clinics .professional-clinics-info {
+        width: 51%;
+        margin: auto;
+        text-align: center;
+    }
+    .hero-title {
+        width: 53%;
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+     .announcement-bar .email {
+        display: none;
+    }
+    .announcement-bar .social_media {
+        display: none;
+    }
+    .announcement-bar .phone {
+        justify-content: center;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0 !important;
+    }
+    .offcanvas-body {
+        text-align: center;
+        position: relative;
+    }
+    .offcanvas-body .nav-item a {
+        color: #8f8f8f;
+        font-family: Gordita;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 20px 0 10px 0;
+    }
+    .offcanvas-body .nav-item .dropdown-menu a {
+        color: #8f8f8f;
+        font-family: Gordita;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 20px 0 10px 0;
+    }
+    .offcanvas-body .whatsapp-btn {
+        position: absolute;
+        bottom: 10%;
+        left: 35%;
+    }
+    .wrapper .container-fluidd .container {
+        max-width: 880px !important;
+    }
+    .hero .before-img .top-left {
+        position: absolute;
+        top: 7%;
+        left: 8%;
+    }
+    .why-us .why-us-info {
+        width: 80%;
+        padding-top: 23px;
+        margin: 20px;
+    }
+    .hero .hero-text h1 {
+        color: #000;
+        font-family: Gordita;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 14px !important;
+    }
+
+    .hero .hero-text h1 span {
+        color: #000;
+        font-family: Gordita;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .hero .hero-text p {
+        color: #000;
+        font-family: Gordita;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 25px;
+    }
+    
+
+}
+@media only screen and (max-width: 750px) {
+
+.col-last-links{
+   display: none !important;
+}
+
+.hero .hero-text h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 14px !important;
+}
+.hero .hero-text h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 14px !important;
+}
+.hero .hero-text p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 13px;
+}
+}
+@media only screen and (max-width: 700px) {    
+    .footer .col-1-footer {
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+    }
+    footer .col-last-links {
+        display: none;
+    }
+    .footer .colmd2 {
+        display: flex;
+        justify-content: flex-start;
+        /*width: 50%;*/
+        padding-top: 30px;
+    }
+    .footer .col-last-links {
+        display: none;
+    }
+
+    footer .footer-text .row1 {
+        flex-flow: column-reverse;
+    }
+    footer .text-endd {
+        text-align: center;
+    }
+    footer .footer-text .row2 {
+        width: 90%;
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+        margin: 0 auto 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .announcement-bar .email {
+        display: none;
+    }
+    .announcement-bar .social_media {
+        display: none;
+    }
+    .announcement-bar .phone {
+        justify-content: center;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0 !important;
+    }
+
+    .professional-clinics {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .professional-clinics .professional-clinics-info {
+        width: 96%;
+        margin: auto;
+        text-align: start !important;
+    }
+
+    .professional-clinics .professional-clinics-info p {
+        color: #231f20;
+        text-align: start;
+    }
+    .hero-mobile .hero-text h1 {
+        color: #000;
+        font-family: Gordita;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .hero-mobile .hero-text {
+        padding: 20px 12px 0 12px;
+    }
+    .hero-mobile .hero-text h1 span {
+        color: #000;
+        font-family: Gordita;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .hero-mobile .p-5 {
+        padding: 1rem !important;
+    }
+    .medical-treatments .medical-treatments-info {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+    .medical-treatments {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .why-us {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .why-us img {
+        border-radius: 12px;
+        background: #8f8f8f;
+    }
+
+    .why-us .why-us-info {
+        width: 96%;
+        padding-top: 20px;
+        margin: auto;
+    }
+    .why-us .why-us-info .learn-more-btn {
+        display: inline-flex;
+        height: 43px;
+        padding: 9px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #4ace91;
+        /* btn text style */
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .why-us .why-us-info h1 {
+        color: #000;
+        font-family: Gordita;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .why-us .why-us-info p {
+        color: #000;
+        font-family: Gordita;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .before-after .before-after-info {
+        text-align: start;
+    }
+    .before-after h3 {
+        color: #231f20;
+        font-family: Gordita;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .before-after .before-img .before {
+        display: flex;
+        width: 49px;
+        height: 19px;
+        padding: 9px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #8f8f8f;
+
+        /* Text style */
+        color: #fff;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .before-after .before-img .after {
+        display: flex;
+        width: 49px;
+        height: 19px;
+        padding: 9px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #34a86e;
+        /* Text style */
+        color: #fff;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .before-after .before-img img {
+        height: 169px;
+        object-fit: cover;
+    }
+    .before-after .before-after-info {
+        text-align: start;
+    }
+    .before-after .before-after-info h1 {
+        color: #000;
+        font-family: Gordita;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .before-after .before-after-info p {
+        color: #000;
+        font-family: Gordita;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .before-after {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact-us-form {
+        width: 94%;
+        text-align: start;
+    }
+    .contact-us-info .contact-us-form p {
+        color: #231f20;
+        text-align: start;
+        font-family: Gordita;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .contact-us {
+        padding-bottom: 0px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+    }
+    .footer .col-1-footer {
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+    }
+    footer .col-last-links {
+        display: none;
+    }
+    .footer .colmd2 {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+        padding-top: 30px;
+    }
+    .footer .col-last-links {
+        display: none;
+    }
+
+    footer .footer-text .row1 {
+        flex-flow: column-reverse;
+    }
+    footer .text-endd {
+        text-align: center;
+    }
+    footer .footer-text .row2 {
+        width: 90%;
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+        margin: 0 auto 30px;
+    }
+    .hero-2 {
+        display: none;
+    }
+    .hero {
+        display: none;
+    }
+    .hero-mobile {
+        display: block;
+    }
+
+    .hero-mobile .hero-text p {
+        color: #000;
+        font-family: Gordita;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .hero-mobile .learn-more-btn {
+        display: inline-flex;
+        height: 43px;
+        padding: 9px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #4ace91;
+        border: #4ace91;
+        /* btn text style */
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .icon-img {
+        width: 15%;
+    }
+}
+.icon-img {
+    width: 15%;
+}
+
+/* Hair Transplant  Page*/
+
+.fue-hair-transplant {
+    padding-bottom: 70px;
+}
+.fue-hair-transplant .fue-hair-transplant-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fue-hair-transplant .fue-hair-transplant-title h1 {
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fue-hair-transplant .fue-hair-transplant-alb-col {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.fue-hair-transplant .fue-hair-transplant-alb-col2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fue-hair-transplant .fue-hair-transplant-alb {
+    width: 90%;
+}
+.fue-hair-transplant .fue-hair-transplant-alb h1 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fue-hair-transplant .fue-hair-transplant-alb p {
+    color: #000;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.questions {
+    background: #f4f4f4;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.questions .question-heading {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.questions .question-heading h4 {
+    color: #000;
+    font-family: Gordita;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.questions .accordion-button,
+.questions .accordion-button:focus {
+    display: flex;
+    height: 73px;
+    padding: 21px 20px 21px 21px;
+    align-items: center;
+    background: #4ace91;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4ace91 !important;
+}
+.accordion-button.collapsed {
+    margin-bottom: 0px;
+}
+.questions .accordion .question-item {
+    padding-bottom: 20px;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 2rem !important;
+    height: 2rem !important;
+    margin-left: auto;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 2rem !important;
+    transition: transform 0.2s ease-in-out;
+}
+.questions .accordion .question-header button {
+    color: #000;
+    font-family: Gordita;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.questions .accordion-collapse {
+    background-color: white;
+    padding: 20px;
+}
+.direct-hair-transplant {
+    border-top: 1px sold black;
+    background: #eef8f3;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.direct-hair-transplant h1 {
+    color: #000;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 70px;
+}
+.direct-hair-transplant .direct-hair-transplant-alb-col2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.direct-hair-transplant .direct-hair-transplant-alb {
+    width: 90%;
+}
+
+.dhi-fue-fut {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #cdcdcd;
+}
+.dhi-fue-fut .dhi-fue-fut-header {
+    width: 45%;
+    margin: auto;
+}
+
+.dhi-fue-fut .dhi-fue-fut-header h1 {
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dhi-fue-fut .dhi-fue-fut-header p {
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dhi-fue-fut .dhi-fue-fut-alb-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d9d9d9;
+}
+.dhi-fue-fut .dhi-fue-fut-alb {
+    width: 70%;
+}
+
+.dhi-fue-fut .dhi-fue-fut-alb h1 {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.dhi-fue-fut .dhi-fue-fut-alb p {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dhi-fue-fut .paragraph {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 55%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.dhi-fue-fut .card-img-overlay {
+    position: absolute;
+    top: 64% !important;
+    right: 0;
+    bottom: 24% !important;
+    left: 0;
+    padding: 1rem;
+    border-radius: calc(0.25rem - 1px);
+    background: rgba(70, 74, 82, 0.7);
+    mix-blend-mode: multiply;
+    text-align: center;
+}
+.dhi-fue-fut .card-img-overlay .card-title1 {
+    color: #fff;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dhi-fue-fut .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 0;
+    border-radius: 0.25rem;
+}
+
+.question-answer {
+    padding-bottom: 30px;
+    color: #231f20;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.row-bif-aft .before-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* .row-bif-aft .before-img img { */
+/* border-radius: 20px; */
+/* } */
+.row-bif-aft .before-img .top-left {
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    /* left: 40%; */
+    width: 100%;
+    background: rgba(70, 74, 82, 0.7);
+}
+.row-bif-aft .col-md-6 p {
+    color: #231f20;
+    font-family: Gordita;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 10px;
+}
+.hero-hairtransplant .before-img {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.hero-hairtransplant .before-img .top-left {
+    position: absolute;
+    top: 44%;
+    left: 15%;
+}
+
+.hero-hairtransplant .hero-hairtransplant-title {
+    color: #000;
+    font-family: Gordita;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media only screen and (max-width: 1000px) {
+    
+        .direct-hair-transplant .direct-hair-transplant-alb {
+    width: 90%;
+    margin: auto;
+}
+    .fue-hair-transplant .fue-hair-transplant-alb {
+        width: 90%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .fue-hair-transplant .fue-hair-transplant-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fue-hair-transplant .fue-hair-transplant-title h1 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb h1 {
+        font-size: 16px;
+    }
+    .fue-hair-transplant .col-reverse {
+        flex-direction: column-reverse;
+    }
+    .questions .question-heading {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .direct-hair-transplant h1 {
+        color: #000;
+        text-align: center;
+        font-family: Gordita;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 33px;
+    }
+    .dhi-fue-fut .dhi-fue-fut-header {
+        width: 100%;
+        margin: auto;
+    }
+    .dhi-fue-fut .dhi-fue-fut-alb {
+        width: 85%;
+        padding-top: 10px;
+    }
+    .dhi-fue-fut .paragraph {
+        color: #231f20;
+        font-family: Gordita;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 100%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fue-hair-transplant .fue-hair-transplant-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fue-hair-transplant .fue-hair-transplant-title h1 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb h1 {
+        font-size: 16px;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .fue-hair-transplant .fue-hair-transplant-alb {
+        width: 90%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .fue-hair-transplant .col-reverse {
+        flex-direction: column-reverse;
+    }
+    .questions {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .fue-hair-transplant {
+        padding-bottom: 50px;
+    }
+    .questions .question-heading h4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .questions .question-heading {
+        width: 91%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .questions .accordion .question-header button {
+        color: #000;
+        font-family: Gordita;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .questions .accordion-button,
+    .questions .accordion-button:focus {
+        display: flex;
+        height: 56px;
+        padding: 21px 20px 21px 21px;
+        align-items: center;
+        background: #4ace91;
+        border: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.1rem !important;
+        height: 1.1rem !important;
+        margin-left: auto;
+        content: "";
+        background-repeat: no-repeat;
+        background-size: 1.1rem !important;
+        transition: transform 0.2s ease-in-out;
+    }
+    .direct-hair-transplant {
+        padding-top: 50px;
+    }
+    .direct-hair-transplant h1 {
+        font-size: 27px;
+        padding-bottom: 30px;
+    }
+    .direct-hair-transplant .direct-hair-transplant-alb-col2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dhi-fue-fut {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #cdcdcd;
+    }
+    .dhi-fue-fut .dhi-fue-fut-header h1 {
+        font-size: 22px;
+    }
+    .dhi-fue-fut .dhi-fue-fut-header {
+        width: 95%;
+        margin: auto;
+    }
+    .dhi-fue-fut .dhi-fue-fut-header p {
+        font-size: 14px;
+    }
+    .dhi-fue-fut .dhi-fue-fut-alb {
+        width: 90%;
+        margin: auto;
+    }
+    .dhi-fue-fut .dhi-fue-fut-alb h1 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .dhi-fue-fut .dhi-fue-fut-alb p {
+        color: #231f20;
+        font-family: Gordita;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .dhi-fue-fut .paragraph {
+        color: #231f20;
+        font-family: Gordita;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 100%;
+    }
+    .hero-hairtransplant .hero-hairtransplant-title {
+        color: #000;
+        font-family: Gordita;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .hero-hairtransplant .before-img .top-left {
+        position: absolute;
+        top: 44%;
+        left: 10%;
+    }
+}
+
+/* First Section Dental */
+.first-section-dental .header-dental {
+    position: relative;
+}
+
+.first-section-dental .header-dental .img-text-dental {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.first-section-dental .header-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+}
+
+.first-section-dental .header-desc {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+/* Second Section Dental*/
+
+.second-section-dental {
+    margin-top: 2rem;
+    background-color: #f3f3f3;
+}
+
+.second-section-dental .col-description {
+    margin-top: 3.5rem;
+    padding-right: 2.2rem;
+    padding-left: 5rem;
+}
+
+.second-section-dental img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-section-dental .col-description h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.second-section-dental .col-description p {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Third Section Dental */
+
+.third-section-dental {
+    background-color: #eef8f3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.third-section-dental .row {
+    justify-content: center;
+}
+
+.third-section-dental h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.third-section-dental .benefits-list {
+    padding-top: 2rem;
+}
+
+.third-section-dental ol {
+    list-style: none;
+}
+
+.third-section-dental ol hr {
+    height: 2px;
+    color: #010101;
+}
+
+.third-section-dental ol li {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 1.5em;
+    text-indent: -1.2em;
+}
+
+/* Fourth Section Dental */
+.fourth-section-dental {
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.fourth-section-dental .row {
+    justify-content: center;
+}
+
+.fourth-section-dental h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+.fourth-section-dental p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.fourth-section-dental ul {
+    margin-left: -1rem;
+}
+
+.fourth-section-dental ul li {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Fifth Section Dental */
+.fifth-section-dental {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fifth-section-dental h2,
+.fifth-section-dental p {
+    text-align: center;
+}
+
+.fifth-section-dental p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.fifth-section-dental .boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.fifth-section-dental .boxes .first-box {
+    width: 182px;
+    height: 182px;
+    border-radius: 9px;
+    background-color: #eef8f3;
+    position: relative;
+}
+
+.fifth-section-dental .boxes .first-box img {
+    width: 73px;
+    height: 73px;
+    object-fit: contain;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.boxes .outside-box {
+    width: 185px;
+}
+
+.boxes .outside-box .price-description {
+    font-size: 13px;
+    font-family: "Gordita";
+}
+
+.boxes .outside-box .price-value {
+    font-weight: 500;
+    color: #34a86e;
+    font-size: 14px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, -15px);
+}
+
+.fifth-section-dental .swiper-pagination-bullet-active {
+    width: 25px;
+    border-radius: 4px;
+    background: #5bbf8d;
+}
+
+.quote-column {
+    margin-top: 2rem;
+}
+
+.get-quote-wrapper {
+    background-color: #ddffef;
+    padding: 2rem;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.get-quote-wrapper button {
+    width: 200px;
+    padding: 0.7rem;
+    background-color: #34a86e;
+    border: none;
+    font-weight: 700;
+}
+
+.swiper-texts {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: start;
+}
+.d-mobile {
+    display: none;
+}
+
+.br-responsive {
+    display: none;
+}
+@media (max-width: 1441px) {
+    .fifth-section-dental .boxes {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1281px) {
+    .fifth-section-dental .boxes {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 920px) {
+    .first-section-dental .header-dental .img-text-dental {
+        left: 5%;
+    }
+    .first-section-dental .header-title {
+        font-size: 1.5rem;
+    }
+    .first-section-dental .header-desc {
+        font-size: 1.3rem;
+        padding-left: 2rem;
+    }
+    .second-section-dental .col-description {
+        padding-left: 3rem;
+    }
+    .second-section-dental .col-description h4 {
+        font-size: 1.5rem;
+        text-align: start;
+    }
+    .second-section-dental .col-description p {
+        font-size: 1.1rem;
+    }
+    .third-section-dental .benefits-list {
+        padding-left: 3rem;
+    }
+    .third-section-dental h2 {
+        font-size: 1.3rem;
+    }
+    .third-section-dental ol {
+        padding-left: 0;
+    }
+    .third-section-dental ol li {
+        font-size: 1.1rem;
+    }
+    .fourth-section-dental {
+        padding-left: 2rem;
+    }
+    .fifth-section-dental .boxes {
+        justify-content: center;
+    }
+    .fifth-section-dental .boxes {
+        gap: 20px;
+    }
+    .fifth-section-dental p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .fifth-section-dental .boxes {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 474px) {
+    .d-desktop {
+        display: none;
+    }
+
+    .br-responsive {
+        display: inline;
+    }
+    .d-mobile {
+        display: block;
+    }
+
+    .first-section-dental .header-title {
+        font-size: 17px;
+    }
+
+    .first-section-dental .header-dental .img-text-dental {
+        left: 5%;
+        font-size: 15px;
+    }
+
+    .first-section-dental .header-desc {
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+    .second-section-dental .col-description {
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .second-section-dental .col-description h4 {
+        font-size: 17px;
+        padding-left: 5px;
+    }
+
+    .second-section-dental .col-description p {
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+    .first-section-dental .header-dental img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .second-section-dental .second-section-reverse {
+        flex-direction: column-reverse;
+    }
+
+    /* .third-section-dental ol{
+        margin-left: -2rem;
+    } */
+    .third-section-dental .benefits-list {
+        padding-left: 1rem;
+    }
+    .third-section-dental h2 {
+        font-size: 18px;
+    }
+
+    .third-section-dental ol li {
+        font-size: 15px;
+    }
+    .fourth-section-dental {
+        padding-left: 1rem;
+    }
+    .fourth-section-dental h4 {
+        font-size: 17px;
+    }
+
+    .fourth-section-dental p {
+        font-size: 15px;
+    }
+
+    .fourth-section-dental ul li {
+        font-size: 14px;
+    }
+
+    .fifth-section-dental h2 {
+        font-size: 18px;
+    }
+    .fifth-section-dental p {
+        font-size: 15px;
+    }
+    .fifth-section-dental .boxes {
+        justify-content: center;
+        gap: 5px;
+        margin-left: 3rem;
+    }
+
+    .boxes .outside-box {
+        margin-right: auto;
+        text-align: start;
+    }
+
+    .boxes .outside-box .price-value {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .fifth-section-dental .boxes .first-box {
+        width: 144px;
+        height: 144px;
+        border-radius: 9px;
+        background-color: #eef8f3;
+        position: relative;
+    }
+
+    .fifth-section-dental .boxes .first-box img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
+    .swiper-texts {
+        font-size: 0.936rem;
+        font-weight: 500;
+        text-align: start;
+    }
+
+    .quote-column {
+        padding: 0;
+    }
+
+    .get-quote-wrapper {
+        width: 100%;
+        background-color: #34a86e;
+    }
+
+    .get-quote-wrapper button {
+        display: none;
+    }
+
+    .quote-span {
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .quote-anchor {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 368px) {
+    .fifth-section-dental .boxes {
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
+
+/**************************    EYE SURGERY STYLE PAGE     *************************/
+
+/* First Section Eye */
+
+.first-section-eye .header-eye {
+    background-image: url("/healthTravel/frontend/assets/eye-surgery/eyesurgery-head.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*.first-section-eye .img-header-eye{*/
+/*    position: relative;*/
+/*}*/
+
+.first-section-eye .img-text-eye {
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
+.first-section-eye .img-text-eye h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.first-section-eye .img-text-eye span {
+    font-weight: 500;
+}
+
+.first-section-eye .img-text-eye p {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+.first-section-eye .first-desc-head {
+    background-color: #76dcad;
+}
+
+.first-section-eye .first-desc-head p {
+    width: 58%;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 2rem 0 2rem 0;
+}
+
+/* Second Section Eye */
+
+.second-section-eye {
+    margin-top: 4rem;
+}
+
+.second-section-eye .desc-refractive-lens {
+    margin-top: 2rem;
+}
+
+.second-section-eye .desc-refractive-lens h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.second-section-eye .desc-refractive-lens p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.second-section-eye .desc-refractive-lens span {
+    font-weight: 500;
+}
+
+.second-section-eye .second-row-eye {
+    margin-top: 4rem;
+}
+
+.second-section-eye .second-row-eye .desc-refractive-lens h4 {
+    margin-left: auto;
+    width: 90%;
+}
+
+.second-section-eye .second-row-eye .desc-refractive-lens p {
+    margin-left: auto;
+}
+
+.third-section-eye {
+    margin-top: 4rem;
+}
+
+.third-section-eye .first-desc-head {
+    background-color: #76dcad;
+}
+
+.third-section-eye .first-desc-head p {
+    width: 50%;
+    margin: auto;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+@media (max-width: 1441px) {
+    /* First Section Eye */
+
+    .first-section-eye .img-text-eye h4 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .first-section-eye .img-text-eye p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .first-section-eye .first-desc-head {
+        background-color: #76dcad;
+    }
+
+    .first-section-eye .first-desc-head p {
+        width: 60%;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 2rem 0 2rem 0;
+    }
+
+    /* Second Section Eye */
+
+    .second-section-eye {
+        margin-top: 4rem;
+    }
+
+    .second-section-eye .desc-refractive-lens {
+        margin-top: 2rem;
+    }
+
+    .second-section-eye .desc-refractive-lens h4 {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .second-section-eye .desc-refractive-lens p {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .second-section-eye .second-row-eye .desc-refractive-lens h4 {
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .third-section-eye .first-desc-head p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1281px) {
+    /* First Section Eye */
+
+    .first-section-eye .img-text-eye {
+        top: 10%;
+    }
+
+    .first-section-eye .img-text-eye h4 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .first-section-eye .img-text-eye p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .first-section-eye .first-desc-head {
+        background-color: #76dcad;
+    }
+
+    .first-section-eye .first-desc-head p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 2rem 0 2rem 0;
+    }
+
+    /* Second Section Eye */
+
+    .second-section-eye {
+        margin-top: 4rem;
+    }
+
+    .second-section-eye .desc-refractive-lens {
+        margin-top: 2rem;
+    }
+
+    .second-section-eye .desc-refractive-lens h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .second-section-eye .desc-refractive-lens p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .second-section-eye .second-row-eye .desc-refractive-lens h4 {
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .third-section-eye .first-desc-head p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    /* First Section Eye */
+
+    .first-section-eye .img-text-eye {
+        position: absolute;
+        top: 8%;
+        left: 12%;
+    }
+    .first-section-eye .img-text-eye h4 {
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    .first-section-eye .img-text-eye p {
+        font-size: 0.68rem;
+        font-weight: 400;
+    }
+
+    .first-section-eye .first-desc-head {
+        background-color: #76dcad;
+    }
+
+    .first-section-eye .first-desc-head p {
+        width: 79%;
+        margin: auto;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 2rem 0 2rem 0;
+    }
+
+    /* Second Section Eye */
+
+    .second-section-eye {
+        margin-top: 2rem;
+    }
+
+    .second-section-eye .desc-refractive-lens {
+        margin-top: 2rem;
+    }
+
+    .second-section-eye .row-eye-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .second-section-eye .desc-refractive-lens h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .second-section-eye .desc-refractive-lens p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .second-section-eye .second-row-eye .desc-refractive-lens h4 {
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .third-section-eye .first-desc-head p {
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 474px) {
+    .first-section-eye .header-eye {
+        background-color: #eef8f3;
+        background-image: none;
+    }
+    .br-responsive-mobile {
+        display: none;
+    }
+    .first-section-eye .img-header-eye {
+        position: static;
+    }
+    .first-section-eye .img-text-eye {
+        position: static;
+        background-color: #eef8f3;
+        padding-left: 1.5rem;
+        background-image: none;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+    .first-section-eye .img-text-eye h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .first-section-eye .img-text-eye span {
+        font-weight: 500;
+    }
+
+    .first-section-eye .img-text-eye p {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .first-section-eye .first-desc-head p {
+        width: 100%;
+        margin: auto;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .second-section-eye .desc-refractive-lens h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .second-section-eye .desc-refractive-lens p {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .second-section-eye .second-row-eye .desc-refractive-lens h4 {
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .third-section-eye {
+        margin-top: 2rem;
+    }
+
+    .third-section-eye .first-desc-head {
+        padding: 0;
+    }
+
+    .third-section-eye .first-desc-head p {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .fourth-section-dental {
+        padding-left: 0.5rem;
+    }
+}
+
+/***************** Orthopaedic Site **********************/
+
+/* First Section Orthopaedic */
+
+.first-section-orthopaedic {
+    padding-bottom: 2rem;
+}
+
+.first-section-orthopaedic .header-orthopaedic {
+    background-image: url("/healthTravel/frontend/assets/orthopaedic/orthopaedic-header.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.first-section-orthopaedic .img-text-orthopaedic {
+    position: absolute;
+    top: 22%;
+    left: 15%;
+}
+
+.first-section-orthopaedic .img-text-orthopaedic h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first-section-orthopaedic .img-text-orthopaedic p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.first-section-orthopaedic .header-texts-orthopaedic {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.first-section-orthopaedic .header-texts-orthopaedic h4 {
+    font-size: 22px;
+    height: 500;
+}
+
+.first-section-orthopaedic .header-texts-orthopaedic p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.first-section-orthopaedic .card {
+    border: 0;
+}
+
+.first-section-orthopaedic .card .card-body {
+    padding: 1rem 1rem 0 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* Second section Orthopaedic */
+.second-section-orthopaedic {
+    background-color: #e5e5e5;
+    padding-bottom: 4rem;
+}
+
+.second-section-orthopaedic .candidates-texts {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.second-section-orthopaedic .candidates-texts h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.second-section-orthopaedic .candidates-texts p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second-section-orthopaedic .candidates-wrapper {
+    background-color: #fff;
+}
+.second-section-orthopaedic .candidates-wrapper img {
+    height: 100%;
+    object-fit: cover;
+}
+.second-section-orthopaedic .card-img,
+.card-img-bottom,
+.card-img-top {
+    max-width: 300px;
+}
+.second-section-orthopaedic .candidates-wrapper .candidates-wrapper-texts {
+    padding: 5rem 5rem 4rem 5rem;
+}
+
+.second-section-orthopaedic .candidates-wrapper-texts h4 {
+    font-size: 20px;
+    color: #34a86e;
+    padding-bottom: 1rem;
+}
+
+.second-section-orthopaedic .candidates-wrapper-texts p {
+    font-size: 18px;
+}
+
+/* Third Section Orthopaedic */
+
+.third-section-orthopaedic {
+    background-color: #464a52;
+    padding-bottom: 5rem;
+}
+
+.third-section-orthopaedic .average-cards {
+    padding-top: 2rem;
+}
+.third-section-orthopaedic .average-cards .card {
+    margin-left: 1rem;
+}
+.third-section-orthopaedic .average-texts {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.third-section-orthopaedic .average-texts span {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.third-section-orthopaedic .average-texts h4 {
+    font-size: 32px;
+    color: #34a86e;
+    font-weight: 700;
+}
+
+.third-section-orthopaedic .card-orthopaedic1,
+.third-section-orthopaedic .card-orthopaedic3 {
+    background-color: #565b63;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+}
+
+.third-section-orthopaedic .card-orthopaedic1 .card-body .card-text,
+.third-section-orthopaedic .card-orthopaedic3 .card-body .card-text {
+    color: #d9d9d9;
+}
+
+.third-section-orthopaedic .card-orthopaedic1 .card-title,
+.third-section-orthopaedic .card-orthopaedic3 .card-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.third-section-orthopaedic .card-orthopaedic1 .card-price,
+.third-section-orthopaedic .card-orthopaedic3 .card-price {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.third-section-orthopaedic .card .card-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.third-section-orthopaedic .card-orthopaedic1 .transfers-accommodation {
+    padding-top: 6rem;
+    line-height: 3em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.third-section-orthopaedic .card-orthopaedic3 .transfers-accommodation {
+    padding-top: 1rem;
+    line-height: 3em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.third-section-orthopaedic .card-orthopaedic1 a,
+.third-section-orthopaedic .card-orthopaedic3 a {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.9rem 0 0.9rem 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #57e2a2;
+    border-radius: 15px;
+    border: none;
+}
+
+.third-section-orthopaedic .card p i {
+    padding-right: 10px;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 {
+    background-color: #57e2a2;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    -webkit-box-shadow: -1px 4px 23px 0px rgba(87, 226, 162, 1);
+    -moz-box-shadow: -1px 4px 23px 0px rgba(87, 226, 162, 1);
+    box-shadow: -1px 4px 23px 0px rgba(87, 226, 162, 1);
+}
+
+.third-section-orthopaedic .card-orthopaedic2 .card-body .card-text,
+.third-section-orthopaedic .card-orthopaedic2 .card-body i {
+    color: #033a1f;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 .card-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.third-section-orthopaedic .card-orthopaedic2 .card-price {
+    font-size: 32px;
+    font-weight: 500;
+    color: #0f7e47;
+    padding-top: 1rem;
+    text-decoration: line-through;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 span {
+    text-decoration: none !important;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 .card-price-discount {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 .transfers-accommodation {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 10px;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 .tandart-transfers {
+    font-size: 17px;
+    color: #033a1f;
+    font-weight: 500;
+}
+
+.third-section-orthopaedic .card-orthopaedic2 a {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.9rem 0 0.9rem 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000;
+    border-radius: 15px;
+    border: none;
+}
+
+/* Orthopaedic */
+@media (max-width: 920px) {
+    .first-section-orthopaedic .img-text-orthopaedic h4 {
+        font-size: 25px;
+    }
+
+    .first-section-orthopaedic .img-text-orthopaedic p {
+        font-size: 18px;
+    }
+
+    .first-section-orthopaedic .header-texts-orthopaedic h4 {
+        font-size: 20px;
+    }
+
+    .first-section-orthopaedic .header-texts-orthopaedic p {
+        font-size: 18px;
+    }
+
+    .first-section-orthopaedic .card .card-body {
+        padding: 0.5rem 1rem 1rem 0rem;
+        font-size: 18px;
+    }
+
+    .second-section-orthopaedic .candidates-texts h4 {
+        font-size: 20px;
+    }
+
+    .second-section-orthopaedic .candidates-texts p {
+        font-size: 18px;
+    }
+
+    .third-section-orthopaedic .average-texts span {
+        font-size: 20px;
+    }
+
+    .third-section-orthopaedic .average-texts h4 {
+        font-size: 28px;
+    }
+
+    .third-section-orthopaedic .average-texts span {
+        font-size: 18px;
+    }
+
+    .third-section-orthopaedic .average-cards .card {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+
+    .third-section-orthopaedic {
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .first-section-orthopaedic .header-orthopaedic {
+        background: #eef8f3;
+        display: flex;
+        flex-direction: column-reverse;
+        position: static;
+    }
+
+    .first-section-orthopaedic .img-header-orthopaedic {
+        background-image: url("/healthTravel/frontend/assets/orthopaedic/orthopaedic-header.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .first-section-orthopaedic .img-text-orthopaedic {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .second-section-orthopaedic .candidates-wrapper .candidates-wrapper-texts {
+        padding: 1rem;
+    }
+
+    .second-section-orthopaedic .candidates-texts {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 474px) {
+    .first-section-orthopaedic .card-text {
+        font-size: 16px;
+    }
+    .first-section-orthopaedic .header-texts-orthopaedic {
+        padding-top: 1rem;
+        text-align: start;
+    }
+    .first-section-orthopaedic .img-text-orthopaedic {
+        padding-left: 1rem;
+    }
+}
+
+/***************** Shoulder Site **********************/
+
+/* First Section Shoulder */
+
+.first-section-shoulder {
+    padding-bottom: 2rem;
+}
+
+.first-section-shoulder .header-shoulder {
+    background-image: url("/healthTravel/frontend/assets/orthopaedic/orthopaedic-hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.first-section-shoulder .img-text-shoulder {
+    position: absolute;
+    top: 22%;
+    left: 15%;
+}
+
+.first-section-shoulder .img-text-shoulder h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first-section-shoulder .desc-shoulder {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+.first-section-shoulder .header-texts-shoulder {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.first-section-shoulder .header-texts-shoulder h2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.first-section-shoulder .header-texts-shoulder p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.first-section-shoulder .card {
+    border: 0;
+}
+
+.first-section-shoulder .card .card-body {
+    padding: 1rem 1rem 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.first-section-shoulder .images-shoulders {
+    justify-content: center;
+}
+
+/* shoulder */
+@media (max-width: 920px) {
+    .first-section-shoulder .img-text-shoulder h4 {
+        font-size: 25px;
+    }
+
+    .first-section-shoulder .img-text-shoulder p {
+        font-size: 18px;
+    }
+
+    .first-section-shoulder .header-texts-shoulder h4 {
+        font-size: 20px;
+    }
+
+    .first-section-shoulder .header-texts-shoulder p {
+        font-size: 18px;
+    }
+
+    .first-section-shoulder .card .card-body {
+        padding: 0.5rem 1rem 1rem 0rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-section-shoulder .header-shoulder {
+        background: #eef8f3;
+        display: flex;
+        flex-direction: column-reverse;
+        position: static;
+    }
+
+    .first-section-shoulder .img-header-shoulder {
+        background-image: url("/healthTravel/frontend/assets/orthopaedic/orthopaedic-header.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .first-section-shoulder .img-text-shoulder {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .first-section-shoulder .header-texts-shoulder h2 {
+        font-size: 28px;
+        font-weight: 500;
+        padding-bottom: 0rem;
+    }
+    .first-section-shoulder .header-texts-shoulder p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 474px) {
+    .first-section-shoulder .card-text {
+        font-size: 16px;
+    }
+    .first-section-shoulder .header-texts-shoulder {
+        padding-top: 1rem;
+        text-align: start;
+    }
+    .first-section-shoulder .img-text-shoulder {
+        padding-left: 1rem;
+    }
+    .first-section-shoulder .images-shoulders{
+        justify-content:start;
+    }
+    .medical-treatments .boxes {
+        display: flex;
+        gap: 18px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .boxes .outside-box {
+    width: 160px;
+}
+}
+
+@media (max-width: 410px) {
+    .medical-treatments .boxes {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .medical-treatments .boxes .first-box {
+        width: 140px;
+        height: 140px;
+        border-radius: 9px;
+        background-color: #eef8f3;
+        position: relative;
+    }
+    .medical-treatments .boxes .first-box img {
+        width: 73px;
+        height: 73px;
+        object-fit: contain;
+        position: absolute;
+        top: 22%;
+        left: 22%;
+    }
+    .boxes .outside-box {
+        width: 130px;
+    }
+    
+}
